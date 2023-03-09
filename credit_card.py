@@ -10,8 +10,10 @@ def verify(number):
         digitIndex.insert(count, int(digit))
         count += 1
         digit1 = int(digit)
-        if digit1 == digitIndex[0]:
-            print(f'yes, {digit1}')
+        if digitIndex == 4:
+            print(f"yes, {digitIndex}")
+        #if digit1 == digitIndex[0]:
+        #    print(f'yes, {digit1}')
             
         
     
