@@ -12,23 +12,8 @@ def verify(number):
         digit1 = int(digit)
         if digit1 == digitIndex[0]:
             print(f'yes, {digit1}')
-        
-        """wholeNumber = int(digit)
-        digit1 = int(digit)
-        if digit1 == wholeNumber[0]:
-            print(digit1)
-        
-        
-        digitIndex.insert(count,int(digit))
-        count += 1
-    count1 = 0
-    for digit in digitIndex:
-        print(digitIndex[count1])
-        if digit == digitIndex[count1]:
             
         
-        
-            print(type(digit), digit)"""
     
   
   # be sure to indent your code!
