@@ -3,17 +3,24 @@ def verify(number):
     #determine whether the card number is valid
     digitIndex = []
     count = 0
+    digitCount = 0
     wholeNumber = []
     for digit in number:
-        if digit == "-":
+        if digit != "-":
+            wholeNumber.insert(count, int(digit))
+            digitIndex.insert(count, digit)
+            count += 1
+            digitCount += int(digit)
+            
             continue
-        digitIndex.insert(count, int(digit))
-        count += 1
-        digit1 = int(digit)
-        if digitIndex == 4:
-            print(f"yes, {digitIndex}")
-        #if digit1 == digitIndex[0]:
-        #    print(f'yes, {digit1}')
+    total = int(digitIndex[0] + digitIndex[1]) + int(digitIndex[10] + digitIndex[11])
+    if wholeNumber[0] == 4:
+        pass
+    if wholeNumber[3] > wholeNumber[4]:
+        pass
+    if digitCount//4 == 0:
+        pass
+    if total == 100:
             
         
     
